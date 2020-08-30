@@ -80,7 +80,7 @@ public class Application {
         }
 
         // return 200 if checkout was successful
-        return ResponseEntity.status(HttpStatus.OK).body("Success");
+        return ResponseEntity.status(HttpStatus.OK).body("Successful");
     }
 
     @RequestMapping("/capture-message")
