@@ -109,7 +109,7 @@ public class Application {
             // caught exception that will be sent to Sentry
             logger.error("Caught exception!", e);
         }
-        return "Hello Nitin Successful test";
+        return "Hello Nitin Successful testing";
     }
     
     @RequestMapping("/filtered")
